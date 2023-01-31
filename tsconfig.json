@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es2015",
+    "allowJs": true,
+    "sourceMap": false,
+    "noImplicitReturns": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es2016",
+      "dom",
+      "es5",
+      "scripthost"
+    ]
+  },
+  "files": [
+    "src/index.ts", 
+    "src/env.d.ts"
+  ]
+}
